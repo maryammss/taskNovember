@@ -1,0 +1,12 @@
+[
+    {
+      "success": true,
+      "token": "123333333",
+      "user": { "username": "email@email.test" },
+      "profiles": [
+        { "id": "1", "name": "Herr Max Mustermann" },
+        { "id": "2", "name": "Frau Mina Musterfrau" }
+      ]
+    }
+  ]
+  

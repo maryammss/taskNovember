@@ -1,0 +1,10 @@
+<div class="content" *ngIf="!isLoggedIn">
+    <h2>Welcome to our Portal</h2>
+    <button (click)="gotoLogin()">Please Go to Login</button>
+  </div>
+  
+  <div class="content" *ngIf="isLoggedIn">
+    <h2>Welcome back {{ userProfile?.name }}</h2>
+    <button (click)="gotoAccount()">My Account</button>
+  </div>
+  
